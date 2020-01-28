@@ -1,0 +1,102 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+    background-color: lightblue
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Varela', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    color: green;
+    font-family: 'Varela', sans-serif;
+
+}
+
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+
+}
+
+.white-box {
+    width: 500px;
+    padding: 28px;
+    margin: 16px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px rgba(116, 115, 115, 0.767);
+    text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.white-box {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.btn-green {
+    padding: 16px;
+    background-color: orange;
+    border-radius: 24px;
+    margin: 0px auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0px;
+}
+
+.list-inline a {
+    font-size: 50px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
